@@ -16,3 +16,11 @@ I'm a junior frontend developer with a 7-year background in analytical chemistry
 
 ---
 
+### Skills and Profiency:
+* CSS3, HTML5, LESS
+* JavaScript, Python, SQL
+* GIT, GitHub
+* Figma
+
+***
+
