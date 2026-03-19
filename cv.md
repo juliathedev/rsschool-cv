@@ -24,3 +24,10 @@ I'm a junior frontend developer with a 7-year background in analytical chemistry
 
 ***
 
+### Code example:
+Create a function which translates a given DNA string into RNA.
+```
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, 'U');
+} 
+```
