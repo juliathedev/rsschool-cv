@@ -31,3 +31,12 @@ function DNAtoRNA(dna) {
   return dna.replace(/T/g, 'U');
 } 
 ```
+
+***
+
+### Courses:
+* HTML academy 
+* Introduction to Software Engineering (IBM)
+* Introduction to Front-End Development (Google)
+
+***
