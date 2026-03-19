@@ -40,3 +40,9 @@ function DNAtoRNA(dna) {
 * Introduction to Front-End Development (Google)
 
 ***
+
+### Languages:
+
+* Russia - Native
+* English - Intermediate
+* Finnish - Basic
