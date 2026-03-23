@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    margin: 0;
+}
