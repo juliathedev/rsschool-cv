@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body> 
@@ -43,70 +44,84 @@
     </header>
     <main>
         <section class="contact">
-            <h2>contact</h2>
-            <ul class="contact__list">
-                <li><span class="list__bold">PHONE:</span> +7 953 398 XX XX</li>
-                <li><span class="list__bold">EMAIL:</span> juls.kovalenko@gmail.com</li>
-                <li><span class="list__bold">TELEGRAM:</span> @julia_kay</li>
-            </ul>
+            <div class="container">
+                <h2>contact</h2>
+                <ul class="contact__list">
+                    <li><span class="list__bold">PHONE:</span> +7 953 398 XX XX</li>
+                    <li><span class="list__bold">EMAIL:</span> juls.kovalenko@gmail.com</li>
+                    <li><span class="list__bold">TELEGRAM:</span> @julia_kay</li>
+                </ul>
+            </div>
         </section>
         <section class="courses">
-            <h2>courses</h2>
-            <ul class="courses__list">
-                <li>
-                    <h3>html academy</h3>
-                    <p>Online education platform specializing in front-end development</p>
-                </li>
-                <li>
-                    <h3>Introduction to Software Engineering (IBM)</h3>
-                    <p>Provides a foundational overview of software development, focusing on the Software Development Life Cycle (SDLC), Agile methodologies, and essential tools like Git and Python</p>
-                </li>
-                <li>
-                    <h3>Introduction to Front-End Development (Google)</h3>
-                    <p>Covers the fundamentals of creating user-facing website components using HTML, CSS, and JavaScript.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2>courses</h2>
+                <ul class="courses__list">
+                    <li>
+                        <h3>html academy</h3>
+                        <p>Online education platform specializing in front-end development</p>
+                    </li>
+                    <li>
+                        <h3>Introduction to Software Engineering (IBM)</h3>
+                        <p>Provides a foundational overview of software development, focusing on the Software Development Life Cycle (SDLC), Agile methodologies, and essential tools like Git and Python</p>
+                    </li>
+                    <li>
+                        <h3>Introduction to Front-End Development (Google)</h3>
+                        <p>Covers the fundamentals of creating user-facing website components using HTML, CSS, and JavaScript.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="skills">
-            <h2>skills</h2>
-            <ul class="skills__list">
-                <li>css3, html5, less</li>
-                <li>javascript, python, sql</li>
-                <li>git, github</li>
-                <li>figma</li>
-            </ul>
+            <div class="container">
+                <h2>skills</h2>
+                <ul class="skills__list">
+                    <li>css3, html5, less</li>
+                    <li>javascript, python, sql</li>
+                    <li>git, github</li>
+                    <li>figma</li>
+                </ul>
+            </div> 
         </section>
         <section class="social-media">
-            <h2>social media</h2>
-            <ul class="social__list">
-                <li><i class="fa-brands fa-square-linkedin"></i></li>
-                <li><i class="fa-brands fa-square-facebook"></i></li>
-                <li><i class="fa-brands fa-square-x-twitter"></i></li>
-            </ul>
+            <div class="container">
+                <h2>social media</h2>
+                <ul class="social__list">
+                    <li><i class="fa-brands fa-square-linkedin"></i></li>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                </ul>
+            </div>
         </section>
         <section class="code-example">
-            <h2>code example</h2>
-            <p>Create a function which translates a given DNA string into RNA.</p>
-            <pre>
-                <code>
-                    function DNAtoRNA(dna) {
-                        return dna.replace(/T/g, 'U');
-                    }
-                </code>
-            </pre>
+            <div class="container">\
+                <h2>code example</h2>
+                <p>Create a function which translates a given DNA string into RNA.</p>
+                <pre>
+                    <code>
+                        function DNAtoRNA(dna) {
+                            return dna.replace(/T/g, 'U');
+                        }
+                    </code>
+                </pre>
+            </div>
         </section>
         <section class="languages">
-            <h3>languages</h3>
-            <ul class="languages__list">
-                <li>Russia - Native</li>
-                <li>English - Intermediate</li>
-                <li>Finnish - Basic</li>
-            </ul>
+            <div class="container">
+                <h3>languages</h3>
+                <ul class="languages__list">
+                    <li>Russia - Native</li>
+                    <li>English - Intermediate</li>
+                    <li>Finnish - Basic</li>
+                </ul>
+            </div>
         </section>
         <footer class="footer">
-            <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/rs-school-logo.svg" alt="rs school logo"></a>
-            <p>2026</p>
-            <a href="https://github.com/juliathedev"><i class="fa-brands fa-square-github"></i></a>
+            <div class="container">
+                <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/rs-school-logo.svg" alt="rs school logo"></a>
+                <p>2026</p>
+                <a href="https://github.com/juliathedev"><i class="fa-brands fa-square-github"></i></a>
+            </div>
         </footer>
     </main>
 </body>
