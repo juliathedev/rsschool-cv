@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-Bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-SemiBold.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-Light.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-ExtraLight.woff2) format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Devanagari";
+    src:url(fonts/IBMPlexSansDevanagari-Light.woff2) format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    margin: 0;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+p, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+a:hover{
+    color: #A9AEB7;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__list li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header__container {
+    display: flex;
+    align-items: flex-start;
+}
+.header__container img {
+    width: auto;
+}
+.header__wrapper {
+    align-self: flex-end;
+    height: 800px;
+    background-color: #A9AEB7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__frame {
+    position: relative;
+    width: 943px;
+    border: 3px solid #3C3E40;
+    background: #FFF;
+    padding: 30px 44px 37px 17px;
+    transform: translateX(-100px); /* Двигает блок влево на 100px */
+    position: relative;
+    z-index: 5;
+}
+.header__frame::before,
+.header__frame::after,
+.corners::before,
+.corners::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    border: 3px solid #3C3E40;
+    z-index: 2;
+}
+.header__frame::before { top: -20.5px; left: -20.5px; }
+.header__frame::after { top: -20.5px; right: -20.5px; }
+.corners::before { bottom: -20.5px; left: -20.5px; }
+.corners::after { bottom: -20.5px; right: -20.5px; }
+h1 {
+    font-family: "IBM Plex Sans Devanagari";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #353638;
+}
+.h1__highlight {
+    color: #6B6D70;
+    font-family: "IBM Plex Sans Devanagari";
+    font-weight: 400;
+}
+.pen__tool {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 90%;    
+    right: 20%;
+    z-index: 10; 
+}
+.header__frame p {
+    color: #353638;
+    font-family: "IBM Plex Sans Devanagari";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.015%; /* 61.206px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.header__about {
+    display: flex;
+    width: 962px;
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.about__headline {
+    color: #F6F6F6;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.015%; /* 73.447px */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+.about__description {
+    color: #F6F6F6;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.015%; /* 48.965px */
+    letter-spacing: 1.92px;
+}
