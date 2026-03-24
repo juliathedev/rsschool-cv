@@ -146,9 +146,9 @@ h1 {
     height: 128px;
     flex-shrink: 0;
     position: absolute;
-    top: 90%;    
+    top: 90%;
     right: 20%;
-    z-index: 10; 
+    z-index: 10;
 }
 .header__frame p {
     color: #353638;
