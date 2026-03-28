@@ -281,3 +281,33 @@ h3 {
 pre {
     background: #8B8D94;
 }
+/* Social media */
+.social__list {
+    display: flex;
+    width: 563px;
+    padding: 60px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.fa {
+    font-size: 64px;
+}
+/* Footer */
+.footer .container {
+    display: flex;
+    width: 1816px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__link {
+    display: inline-block;
+    width: 124px; 
+}
+.footer__logo {
+    width: 100%; 
+    height: auto;
+}
+
+
