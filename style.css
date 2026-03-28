@@ -68,6 +68,10 @@ a:hover{
     color: #A9AEB7;
     cursor: pointer;
 }
+html {
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+}
 /* Nav */
 .menu {
     display: flex;
