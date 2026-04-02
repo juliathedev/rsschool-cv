@@ -191,6 +191,7 @@ li {
     justify-content: space-between;
     margin-top: 38px;
     margin-bottom: 60px;
+    background: url(assets/bg-snow.png) no-repeat center center/cover;
 }
 .about__wrapper {
     display: flex;
@@ -231,27 +232,56 @@ li {
     display: flex;
     padding: var(--Space-60, 60px) var(--Space-8, 8px);
     flex-direction: column;
-    align-items: center;
+    background: url(assets/bg-snow.png) no-repeat center center/cover;
 }
 .text__content {
     color: var(--Static-White, #FFF);
     text-align: center;
 }
 .slider__caption {
+    margin-bottom: 14px;
+}
+.slider__wrapper {
+    display: flex;
+    margin-top: 18px;
+    gap: 20px;
+    margin-left: 74px;
 }
 .slider__headline {
 }
 .slider__content {
+    display: flex;
+    padding: var(--Space-0, 0);
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
 }
 .slide__content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 .slide__text {
+    color: var(--Static-White, #FFF);
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .slide__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
 }
 .slider__buttons {
+
 }
 .slider__btn {
+
 }
 .slider__btn--prev {
 }
