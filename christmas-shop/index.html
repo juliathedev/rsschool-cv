@@ -39,45 +39,48 @@
     <main class="main">
         <section class="hero">
             <div class="hero__content">
-                <p class="hero__caption">Merry Christmas</p>
+                <p class="caption hero__caption ">Merry Christmas</p>
                 <h1 class="hero__headline">Gift yourself the magic of new possibilities</h1>
-                <button class="hero__btn">Explore Magical Gifts</button>
-                <p class="text__caption">and Happy New Year</p>
+                <button class="btn hero__btn">Explore Magical Gifts</button>
+                <p class="caption text__caption">and Happy New Year</p>
             </div>
         </section>
         <section class="about">
-            <div class="text__wrapper">
-                <p class="about__caption">About</p>
-                <h2 class="about__headline">Unleash your inner superhero!</h2>
-                <p class="about__description">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>
-            </div>
-            <div class="about__img">
-                <img src="assets/santa.jpg" alt="santa" class="about__photo">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="text__wrapper">
+                        <p class="caption about__caption">About</p>
+                        <h2 class="about__headline">Unleash your inner superhero!</h2>
+                        <p class="about__description">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>        
+                </div>
+                    <div class="about__img">
+                        <img src="assets/santa.png" alt="santa" class="about__photo">
+                    </div>
+                </div>
             </div>
         </section>
+        <!-- Slider -->
         <section class="slider">
             <div class="text__content">
-                <p class="slider__caption">Become Happier!</p>
+                <p class="caption slider__caption">Become Happier!</p>
                 <h2 class="slider__headline">in the new 2025</h2>
             </div>
-            <div class="slider__content">
-                <div class="slide__content">
-                    <p class="slide__text">live</p>
-                    <img src="assets/snowman.jpg" alt="snowman" class="slide__img">
-                </div>
-                <div class="slide__content">
-                    <p class="slide__text">create</p>
-                    <img src="assets/christmas-trees.jpg" alt="christmas trees" class="slide__img">
-                </div>
-                <div class="slide__content">
-                    <p class="slide__text">love</p>
-                    <img src="assets/christmas-tree-ball.jpg" alt="christmas tree ball" class="slide__img">
-                </div>
+            <div class="slider__wrapper">
+                <div class="slider__content" id="sliderContent">
+                    <div class="slide__content">
+                        <p class="slide__text">live</p>
+                        <img src="assets/snowman.jpg" alt="snowman" class="slide__img">
+                    </div>
+                    <div class="slide__content">
+                        <p class="slide__text">create</p>
+                        <img src="assets/christmas-trees.jpg" alt="christmas trees" class="slide__img">
+                    </div>
+                    <div class="slide__content">
+                        <p class="slide__text">love</p>
+                        <img src="assets/christmas-tree-ball.jpg" alt="christmas tree ball" class="slide__img">
+                    </div>
             </div>
-            <div class="slider__buttons">
-                <button class="slider__btn slider__btn--prev">Prev</button>
-                <button class="slider__btn slider__btn--next">Next</button>
-            </div>
+        </div>
         </section>
         <section class="best-gifts">
             <div class="best-gifts__text">
@@ -125,7 +128,7 @@
         </section>
     <section class="cta">
         <h2 class="cta__headline">ready to start your journey to a better version of yourself?</h2>
-        <button class="cta__btn">explore magical gifts</button>
+        <button class="btn cta__btn">explore magical gifts</button>
         <p class="cta__caption">the new year is coming soon...</p>
         <div class="cta__timer">
             <div class="timer__item">
