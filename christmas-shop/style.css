@@ -176,7 +176,6 @@ li {
     background-size: cover;
     border-radius: 20px 20px 0 0;
     color: #FFF;
-    height: 524px;
 }
 .hero__container {
     position: relative;
@@ -259,7 +258,6 @@ li {
 .text__content {
     color: var(--Static-White, #FFF);
     text-align: center;
-    margin-top: 60px;
 }
 .slider__caption {
     margin-bottom: 14px;
@@ -277,6 +275,7 @@ li {
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    margin-top: 18px;
     align-self: stretch;
 }
 .slide__content {
@@ -330,7 +329,6 @@ li {
 .best-gifts {
     background: url(assets/bg-snow.png) no-repeat center center/cover;
     background-color: var(--primary);
-    padding-top: 122px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,7 +347,7 @@ li {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: stretch;
-    gap: var(--space-8, 8px);
+    gap: var(--Space-12, 12px);
 }
 .card__item {
     display: flex;
@@ -381,16 +379,6 @@ li {
     letter-spacing: 0.6px;
     text-transform: uppercase;
 }
-.card__item:nth-child(1) .card__tag,
-.card__item:nth-child(3) .card__tag {
-    color: var(--Tag-Purple, #4361FF);
-}
-.card__item:nth-child(2) .card__tag {
-    color: var(--Tag-Green, #06A44F);
-}
-.card__item:nth-child(4) .card__tag {
-    color: var(--Tag-Pink, #FF43F7);
-}
 .card__title {
     overflow: hidden;
     color: var(--Dark, #181C29);
@@ -402,6 +390,17 @@ li {
     letter-spacing: 1.28px;
     text-transform: uppercase;
     min-height: 48px;
+}
+.card__tag[data-type="for work"] {
+    color: #4361ff
+}
+
+.card__tag[data-type="for harmony"] {
+    color: #ff43f7
+}
+
+.card__tag[data-type="for health"] {
+    color: #06a44f
 }
 /* CTA section */
 
@@ -478,10 +477,12 @@ li {
 }
 /* Gifts catalog*/
 .gift__catalog {
+    overflow: hidden;
     background-image: url(assets/bg-garland.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
+    background-color: var(--primary);
 }
 .gifts__headline {
     max-width: min(437px, 100%);
@@ -509,6 +510,9 @@ li {
 }
 .tab:hover, .tab.active {
     background-color: #fff3;
+}
+.visually-hidden {
+    display: none;
 }
 /* Footer */
 .footer {
