@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/snowflake.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Christmas Shop</title>
+</head>
+<body class="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <div class="header__logo-wrapper">
+                        <a href="index.html" class="logo">
+                            <img src="assets/snowflake.png" alt="Christmas Shop Logo">
+                            <p class="logo__text">the gifts</p>
+                        </a>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <span class="burger-menu__item"></span>
+                <span class="burger-menu__item"></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a href="gifts.html">gifts</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">best</a></li>
+                    <li><a href="#">contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <section class="hero section">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <p class="caption hero__caption ">Merry Christmas</p>
+                    <h1 class="hero__headline">Gift yourself the magic of new possibilities</h1>
+                    <button class="btn hero__btn">Explore Magical Gifts</button>
+                    <p class="caption text__caption">and Happy New Year</p>
+                </div>
+            </div>
+        </section>
+        <section class="about section">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="text__wrapper">
+                        <p class="caption about__caption">About</p>
+                        <h2 class="about__headline">Unleash your inner superhero!</h2>
+                        <p class="about__description">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>        
+                </div>
+                    <div class="about__img">
+                        <img src="assets/santa.png" alt="santa" class="about__photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Slider -->
+        <section class="slider section">
+            <div class="container">
+                <div class="text__content">
+                        <p class="caption slider__caption">Become Happier!</p>
+                        <h2 class="slider__headline">in the new 2025</h2>
+                </div>
+                <div class="slider__wrapper">
+                    <div class="slider__inner">
+                        <div class="slider__content" id="sliderContent">
+                            <!-- Slide 1 -->
+                            <div class="slide__content">
+                                <p class="slide__text">live</p>
+                                <img src="assets/snowman.png" alt="snowman" class="slide__img">
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="slide__content">
+                                <p class="slide__text">create</p>
+                                <img src="assets/christmas-trees.png" alt="christmas trees" class="slide__img">
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="slide__content">
+                                <p class="slide__text">love</p>
+                                <img src="assets/christmas-tree-ball.png" alt="christmas tree ball" class="slide__img">
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="slide__content">
+                                <p class="slide__text">dream</p>
+                                <img src="assets/fairytale-house.png" alt="christmas tree ball" class="slide__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <button class="slider__btn inactive" id="prevBtn">&#8592;</button>
+                    <button class="slider__btn active" id="nextBtn">&#8594;</button>
+                </div>
+            </div>
+        </section>
+        <section class="best-gifts section">
+            <div class="container">
+                <div class="best-gifts__text">
+                    <p class="caption best-gifts__caption">Best Gifts</p>
+                    <h2 class="best-gifts__headline">especially for you</h2>
+                </div>
+                <div class="best-gifts__cards">
+                    <div class="card__item">
+                        <div class="image__container">
+                            <img src="assets/image_1.png" alt="gift 1" class="card__img">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__tag">for work</h3>
+                            <h4 class="card__title">console.log guru</h4>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="image__container">
+                            <img src="assets/image_2.png" alt="gift 2" class="card__img">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__tag" data-type="for health">for health</h3>
+                            <h4 class="card__title">hydration bot</h4>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="image__container">
+                            <img src="assets/image_1.png" alt="gift 1" class="card__img">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__tag" data-type="for work">for work</h3>
+                            <h4 class="card__title">merge master</h4>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="image__container">
+                            <img src="assets/image_3.png" alt="gift 3" class="card__img">
+                        </div>
+                        <div class="card__text">
+                            <h3 class="card__tag" data-type="for harmony">for harmony</h3>
+                            <h4 class="card__title">spontaneous coding philosopher</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__container">
+                    <div class="cta__content">
+                        <h2 class="cta__headline">ready to start your journey to a better version of yourself?</h2>
+                        <button class="btn cta__btn">explore magical gifts</button>
+                        <div class="cta__timer-container">
+                            <p class="cta__caption caption">the new year is coming soon...</p>
+                            <div class="cta__timer">
+                                <div class="timer__item">
+                                    <h2 class="timer__number">47</h2>
+                                    <p class="timer__text">days</p>
+                                </div>
+                                <div class="timer__separator"></div>
+                                <div class="timer__item">
+                                    <h2 class="timer__number">5</h2>
+                                    <p class="timer__text">hours</p>
+                                </div>
+                                <div class="timer__separator"></div>
+                                <div class="timer__item">
+                                    <h2 class="timer__number">34</h2>
+                                    <p class="timer__text">minutes</p>
+                                </div>
+                                <div class="timer__separator"></div>
+                                <div class="timer__item">
+                                    <h2 class="timer__number">12</h2>
+                                    <p class="timer__text">seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__cards">
+                <div class="footer__cards-item">
+                    <a class="footer__card-link" href="tel:+375 (29) 111-22-33">
+                        <img src="assets/santa-claus.svg" alt="santa claus" class="footer__cards-img">
+                        <div class="footer__cards-info">
+                            <p class="footer__cards-title">+375 (29) 111-22-33</p>
+                            <p class="footer__cards-text">call us</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="footer__cards-item">
+                    <a class="footer__card-link" href="https://example.com">
+                        <img src="assets/christmas-tree.svg" alt="christmas tree" class="footer__cards-img">
+                        <div class="footer__cards-info">
+                            <p class="footer__cards-title">magic forest</p>
+                            <p class="footer__cards-text">meet us</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="footer__cards-item">
+                    <a class="footer__card-link" href="mailto:gifts@magic.com">
+                        <img src="assets/snake.svg" alt="snake" class="footer__cards-img">
+                        <div class="footer__cards-info">
+                            <p class="footer__cards-title">gifts@magic.com</p>
+                            <p class="footer__cards-text">write us</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+                <div class="footer__meta">
+                    <div class="footer__social-links">
+                        <a href="telegram.com" target="_blank">
+                            <img src="assets/telegram.svg" alt="telegram" class="social-links-img">
+                        </a>
+                        <a href="facebook.com" target="_blank">
+                            <img src="assets/facebook.svg" alt="facebook" class="social-links-img">
+                        </a>
+                        <a href="instagram.com" target="_blank">
+                            <img src="assets/instagram.svg" alt="instagram" class="social-links-img">
+                        </a>
+                        <a href="twitter.com" target="_blank">
+                            <img src="assets/X.svg" alt="twitter" class="social-links-img">
+                        </a>
+                    </div>
+                    <div class="footer__info">
+                        <p class="footer__copyright">© Copyright 2025, All Rights Reserved</p>
+                        <p class="footer__caption caption">
+                            <a class="link" href="https://rs.school/" target="_blank">Made in Rolling Scopes School</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
