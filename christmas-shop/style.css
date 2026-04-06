@@ -177,6 +177,22 @@ li {
     height: 40px;
     cursor: pointer;
 }
+.burger-menu__item {
+    position: relative;
+    width: 20px;
+    height: 1px;
+    background: var(--dark, #181C29);
+    transition: all .4s
+}
+.burger-menu.active .burger-menu__item:first-child {
+    transform: rotate(45deg);
+    transform-origin: 30%
+}
+
+.burger-menu.active .burger-menu__item:last-child {
+    transform: rotate(-45deg);
+    transform-origin: 8%
+}
 /* Main */
 /* Hero */
 .hero {
@@ -604,4 +620,20 @@ li {
 }
 .footer__caption .link:hover {
     color: var(--Primary, #FF4646); 
+}
+@media screen and (max-width: 768px) {
+    .burger-menu {
+        display:flex
+    }
+    .menu {
+        display: none;
+    }
+    .container {
+        outline: 2px solid red;
+        max-width:752px;
+    }
+    .header {
+        max-width:752px;
+        width: 100%;
+    }
 }
